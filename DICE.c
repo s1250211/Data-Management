@@ -9,7 +9,9 @@ int main(){
   Total = Dice1+Dice2;
   printf("Dice1 : %d\n",Dice1);
    printf("Dice2 : %d\n",Dice2);
-   printf("Total value : %d",Total);
+   printf("Total value : %d\n",Total);
+   if(Total>7)printf("You Won !\n");
+   else printf("You Lost.\n");
 
   return 0;
  
